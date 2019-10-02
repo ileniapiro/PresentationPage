@@ -23,7 +23,7 @@ a:hover {
 
 /* Section Styles */
 
-.main-nav {
+main.nav {
   width: 100%;
   background: #f8f2d8;
   min-height: 30px;
@@ -95,7 +95,7 @@ header .profile-image:hover {
   background-color: #dd9ea6;
   color: black;
 }
-.card {
+.section {
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
@@ -105,26 +105,28 @@ header .profile-image:hover {
   border-radius: 6px;
   transition: all .5s;
 }
-.card:hover {
+.section:hover {
   border-color: #082931;
 }
-.card .profile-image {
+.section .profile-image {
   margin-top: 50px;
+  display:block;
+  margin:0 auto;
   width: 150px;
   height: 150px;
   border-radius: 20%;
   border: 3px solid black;
   transition: all .5s;
 }
-.card .profile-image:hover {
+.section .profile-image:hover {
 	background: rgba(0,0,0,0);
 	color: #3a7999;
 	box-shadow: inset 0 0 0 3px #3a7999;
 }
-.card .profile-image:hover {
+.section .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
 }
-.card2 {
+.section2 {
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
@@ -134,22 +136,24 @@ header .profile-image:hover {
   border-radius: 6px;
   transition: all .5s;
 }
-.card2:hover {
+.section2:hover {
   border-color: #f1c76b;
 }
-.card2 .profile-image {
+.section2 .profile-image {
   margin-top: 50px;
+  display:block;
+  margin:0 auto;
   width: 150px;
   height: 150px;
   border-radius: 20%;
   border: 3px solid black;
   transition: all .5s;
 }
-.card2 .profile-image:hover {
+.section2 .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
 }
 
-.card3 {
+.section3 {
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
@@ -159,22 +163,24 @@ header .profile-image:hover {
   border-radius: 6px;
   transition: all .5s;
 }
-.card3:hover {
+.section3:hover {
   border-color: #438843;
 }
-.card3 .profile-image {
+.section3 .profile-image {
   margin-top: 50px;
+  display:block;
+  margin:0 auto;
   width: 150px;
   height: 150px;
   border-radius: 20%;
   border: 3px solid black;
   transition: all .5s;
 }
-.card3 .profile-image:hover {
+.section3 .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
 }
 
-.cardarticle {
+.sectionarticle {
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
@@ -184,22 +190,24 @@ header .profile-image:hover {
   border-radius: 6px;
   transition: all .5s;
 }
-.cardarticle:hover {
+.sectionarticle:hover {
   border-color: #082931;
 }
-.cardarticle .profile-image {
+.sectionarticle .profile-image {
   margin-top: 50px;
+  display:block;
+  margin:0 auto;
   width: 150px;
   height: 150px;
   border-radius: 20%;
   border: 3px solid black;
   transition: all .5s;
 }
-.cardarticle .profile-image:hover {
+.sectionarticle .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
 }
 
-.cardarticle2 {
+.sectionarticle2 {
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
@@ -209,11 +217,13 @@ header .profile-image:hover {
   border-radius: 6px;
   transition: all .5s;
 }
-.cardarticle2:hover {
+.sectionarticle2:hover {
   border-color: #68554f;
 }
-.cardarticle2 .profile-image {
+.sectionarticle2 .profile-image {
   margin-top: 50px;
+  display:block;
+  margin:0 auto;
   width: 150px;
   height: 150px;
   border-radius: 20%;
@@ -224,7 +234,7 @@ header .profile-image:hover {
   -webkit-transition: .3s ease-in-out;
   transition: .3s ease-in-out;
 }
-.cardarticle2 .profile-image:hover {
+.sectionarticle2 .profile-image:hover {
   /*transform: scale(1.2) rotate(5deg);*/
   -webkit-filter: grayscale(100);
 	filter: grayscale(100);
