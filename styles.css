@@ -52,12 +52,12 @@ main.nav {
   transition: all .5s;
 }
 .nav a:hover {
-  color: pink
+  color: #b8c9b5;
 }
 
 header {
   text-align: center;
-  background: url('images/rsz_luggage.jpg') no-repeat top center ;
+  background: url('images/rome_rsz.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -77,10 +77,11 @@ header .profile-image:hover {
   transform: scale(1.5) rotate(360deg);
 }
 .tag {
-  background-color: #ffffff;
+  background-color: #b8c9b5;
   color: black;
   padding: 10px;
   border-radius: 5px;
+  border: 2px solid;
   display: table;
   margin: 10px auto;
 }
@@ -92,7 +93,7 @@ header .profile-image:hover {
   margin: 10px auto;
 }
 .location {
-  background-color: #dd9ea6;
+  background-color: #c6cfe0;
   color: black;
 }
 .section {
@@ -129,7 +130,7 @@ header .profile-image:hover {
 .section2 {
   margin: 30px;
   padding: 20px 40px 40px;
-  max-width: 500px;
+  max-width: 600px;
   text-align: left;
   background: #fff;
   border-bottom: 4px solid #ccc;
@@ -156,7 +157,7 @@ header .profile-image:hover {
 .section3 {
   margin: 30px;
   padding: 20px 40px 40px;
-  max-width: 500px;
+  max-width: 600px;
   text-align: left;
   background: #fff;
   border-bottom: 4px solid #ccc;
@@ -304,6 +305,9 @@ a.social:hover {
   clear: both;
 }
 
+.contact {
+  line-height: 25px;
+}
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
 
@@ -334,10 +338,6 @@ a.social:hover {
     line-height: 1.6em;
   }
 
-  footer {
-    font-size: 1.3em;
-    max-width: 1200px;
-    margin: 40px auto;
-  }
+
 
 }
